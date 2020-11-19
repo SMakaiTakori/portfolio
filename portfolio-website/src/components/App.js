@@ -15,7 +15,7 @@ import Background from '../images/Woodbackground.jpg'
           
             <About/>
             
-           <h1>Projects</h1>
+           <h1>Personal Projects</h1>
            <table>
                <tr>
                    
@@ -35,7 +35,15 @@ import Background from '../images/Woodbackground.jpg'
                 </tr>
             </table>
             <br/>
-           <h1>Blog</h1>
+                <h1> Client Projects </h1>
+                
+                <p>Capstone Consulting</p>
+                <p>Advantage Consulting</p>
+                <p>National Black Arts Festival</p>
+                <p>Twice A Child</p>
+               
+            <br/>
+                <h1>Blog</h1>
                 <label>Read my latest blog here</label>
             <br/>
            <h1>Contact</h1>
