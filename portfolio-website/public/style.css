@@ -25,3 +25,8 @@
 h1{
     color: purple;
 }
+
+.rows{
+    padding-top: 50px;
+    margin-bottom: 50px;
+}

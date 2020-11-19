@@ -1,5 +1,9 @@
 import React from 'react'
 import Alert from 'react-bootstrap/Alert'
+import About from './About'
+import Image from 'react-bootstrap/Image'
+
+import Background from '../images/Woodbackground.jpg'
 
 
 
@@ -7,22 +11,14 @@ import Alert from 'react-bootstrap/Alert'
 
     return (
         <div>
-
-           <h1> S. Makai Takori</h1> 
-            <br/>
-
-            <Alert variant="success">
-                This is a success alert—check it out!
-            </Alert>
-
-
-
-           <h1>About Makai</h1>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <br/>
+            <Image style= {{width:2000, height:500 }} src={Background}/>  
+          
+            <About/>
+            
            <h1>Projects</h1>
            <table>
                <tr>
+                   
                     <label>Image 1</label> <br/>
                     <label> Project title| Link</label>
                     <p>Project description</p>
