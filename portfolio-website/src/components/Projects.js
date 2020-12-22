@@ -9,13 +9,34 @@ import Image from "react-bootstrap/Image";
 const Projects = () => {
   return (
     <div>
-      <h1>Personal Projects</h1>
+      <br />
+      <h1 style={{ textAlign: "center" }}>Personal Projects</h1>
       <Container>
         <Row className="rows">
           <Col>
-            <ReactPlayer url="https://youtu.be/iwv-IJ1Vmcg" />
+            <h2>Pinterest Clone App</h2>
+            <ReactPlayer
+              url="https://youtu.be/iwv-IJ1Vmcg"
+              width="250px"
+              height="200px"
+            />
           </Col>
-          <Col></Col>
+          <Col>
+            <h2>Pseudo Tamagotchi</h2>
+            <ReactPlayer
+              url="https://youtu.be/I2t9q1A5bLs"
+              width="250px"
+              height="200px"
+            />
+          </Col>
+          <Col>
+            <h2>Doggy Hotel App</h2>
+            <ReactPlayer
+              url="https://youtu.be/oVWAgO4DvxU"
+              width="250px"
+              height="200px"
+            />
+          </Col>
         </Row>
       </Container>
 
