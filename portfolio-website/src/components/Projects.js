@@ -11,31 +11,71 @@ const Projects = () => {
     <div>
       <br />
       <h1 style={{ textAlign: "center" }}>Personal Projects</h1>
+      <br />
       <Container>
         <Row className="rows">
           <Col>
-            <h2>Pinterest Clone App</h2>
+            <h3 style={{ textAlign: "center" }}>Pinterest Clone App</h3>
+            <br />
             <ReactPlayer
               url="https://youtu.be/iwv-IJ1Vmcg"
-              width="250px"
+              width="350px"
               height="200px"
             />
+            <br />
+            <p>
+              This is a Doggy Hotel App made with Rails that allows users to
+              book reservations with the doggy hotel of their choice. In order
+              to use this app, clone it, run "bundle install" to install the
+              dependencies, and run rails db:seed for the hotels to be created.
+              Run rails server in your terminal and go to the localhost on the
+              specific port shown in the terminal.
+            </p>
+            <a href="https://github.com/SMakaiTakori/doggy_hotel_rails">
+              Github Repo
+            </a>
           </Col>
           <Col>
-            <h2>Pseudo Tamagotchi</h2>
+            <h3 style={{ textAlign: "center" }}>Pseudo Tamagotchi</h3>
+            <br />
             <ReactPlayer
               url="https://youtu.be/I2t9q1A5bLs"
-              width="250px"
+              width="350px"
               height="200px"
             />
+            <br />
+            <p>
+              This is a Doggy Hotel App made with Rails that allows users to
+              book reservations with the doggy hotel of their choice. In order
+              to use this app, clone it, run "bundle install" to install the
+              dependencies, and run rails db:seed for the hotels to be created.
+              Run rails server in your terminal and go to the localhost on the
+              specific port shown in the terminal.
+            </p>
+            <a href="https://github.com/SMakaiTakori/doggy_hotel_rails">
+              Github Repo
+            </a>
           </Col>
           <Col>
-            <h2>Doggy Hotel App</h2>
+            <h3 style={{ textAlign: "center" }}>Doggy Hotel App</h3>
+            <br />
             <ReactPlayer
               url="https://youtu.be/oVWAgO4DvxU"
-              width="250px"
+              width="350px"
               height="200px"
             />
+            <br />
+            <p>
+              This is a Doggy Hotel App made with Rails that allows users to
+              book reservations with the doggy hotel of their choice. In order
+              to use this app, clone it, run "bundle install" to install the
+              dependencies, and run rails db:seed for the hotels to be created.
+              Run rails server in your terminal and go to the localhost on the
+              specific port shown in the terminal.
+            </p>
+            <a href="https://github.com/SMakaiTakori/doggy_hotel_rails">
+              Github Repo
+            </a>
           </Col>
         </Row>
       </Container>
