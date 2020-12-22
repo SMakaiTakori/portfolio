@@ -16,7 +16,7 @@ const Projects = () => {
           <Col
             style={{
               backgroundColor: "#7d14ae",
-              boxShadow: " 5px 10px yellow",
+              boxShadow: "5px 10px yellow",
             }}
           >
             <br />
