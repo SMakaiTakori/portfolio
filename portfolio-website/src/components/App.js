@@ -4,32 +4,14 @@ import About from "./About";
 import Image from "react-bootstrap/Image";
 
 import Background from "../images/Woodbackground.jpg";
+import Projects from "./Projects";
 
 const App = () => {
   return (
     <div>
       <Image style={{ width: 2000, height: 500 }} src={Background} />
       <About />
-      <h1>Personal Projects</h1>
-      <table>
-        <tr>
-          <label>Image 1</label> <br />
-          <label> Project title| Link</label>
-          <p>Project description</p>
-        </tr>
-        <tr>
-          <label>Image 2 </label>
-          <br />
-          <label>Project title| Link</label>
-          <p>Project description</p>
-        </tr>
-        <tr>
-          <label>Image 3</label>
-          <br />
-          <label>Project title| Link</label>
-          <p>Project description</p>
-        </tr>
-      </table>
+      <Projects />
       <br />
       <h1> Client Projects </h1>
       <p>Capstone Consulting</p>
