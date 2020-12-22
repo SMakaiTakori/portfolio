@@ -1,6 +1,9 @@
 import React from "react";
 import ReactPlayer from "react-player";
 
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -15,12 +18,35 @@ const Projects = () => {
       <Container>
         <Row className="rows">
           <Col>
-            <h3>Pinterest Clone App</h3>
+            <br />
+
+            <Card style={{ width: "22rem", height: "auto", color: "white" }}>
+              <ReactPlayer
+                url="https://youtu.be/iwv-IJ1Vmcg"
+                width="100%"
+                height="100%"
+              />
+              <Card.Body style={{ backgroundColor: "#7d14ae" }}>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button
+                  href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp"
+                  variant="primary"
+                >
+                  Github Repo
+                </Button>
+              </Card.Body>
+            </Card>
+
+            {/* <h3>Pinterest Clone App</h3>
             <br />
             <ReactPlayer
               url="https://youtu.be/iwv-IJ1Vmcg"
               width="350px"
-              height="200px"
+              height="250px"
             />
             <br />
             <p>
@@ -30,7 +56,7 @@ const Projects = () => {
             </p>
             <a href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp">
               Github Repo
-            </a>
+            </a> */}
           </Col>
           <Col>
             <br />
@@ -39,7 +65,7 @@ const Projects = () => {
             <ReactPlayer
               url="https://youtu.be/I2t9q1A5bLs"
               width="350px"
-              height="200px"
+              height="250px"
             />
             <br />
             <p>
@@ -61,7 +87,7 @@ const Projects = () => {
             <ReactPlayer
               url="https://youtu.be/oVWAgO4DvxU"
               width="350px"
-              height="200px"
+              height="250px"
             />
             <br />
             <p>
