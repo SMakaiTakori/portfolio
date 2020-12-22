@@ -15,7 +15,7 @@ const Projects = () => {
       <Container>
         <Row className="rows">
           <Col>
-            <h3 style={{ textAlign: "center" }}>Pinterest Clone App</h3>
+            <h3>Pinterest Clone App</h3>
             <br />
             <ReactPlayer
               url="https://youtu.be/iwv-IJ1Vmcg"
@@ -33,7 +33,8 @@ const Projects = () => {
             </a>
           </Col>
           <Col>
-            <h3 style={{ textAlign: "center" }}>Pseudo Tamagotchi</h3>
+            <br />
+            <h3>Pseudo Tamagotchi</h3>
             <br />
             <ReactPlayer
               url="https://youtu.be/I2t9q1A5bLs"
@@ -51,9 +52,11 @@ const Projects = () => {
             <a href="https://github.com/SMakaiTakori/Pseudo-Tamagotchi-App-RailsJS">
               Github Repo
             </a>
+            <br />
           </Col>
           <Col>
-            <h3 style={{ textAlign: "center" }}>Doggy Hotel App</h3>
+            <br />
+            <h3>Doggy Hotel App</h3>
             <br />
             <ReactPlayer
               url="https://youtu.be/oVWAgO4DvxU"
@@ -72,26 +75,6 @@ const Projects = () => {
           </Col>
         </Row>
       </Container>
-
-      <table>
-        <tr>
-          <label>Image 1</label> <br />
-          <label> Project title| Link</label>
-          <p>Project description</p>
-        </tr>
-        <tr>
-          <label>Image 2 </label>
-          <br />
-          <label>Project title| Link</label>
-          <p>Project description</p>
-        </tr>
-        <tr>
-          <label>Image 3</label>
-          <br />
-          <label>Project title| Link</label>
-          <p>Project description</p>
-        </tr>
-      </table>
     </div>
   );
 };
