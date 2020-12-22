@@ -24,14 +24,11 @@ const Projects = () => {
             />
             <br />
             <p>
-              This is a Doggy Hotel App made with Rails that allows users to
-              book reservations with the doggy hotel of their choice. In order
-              to use this app, clone it, run "bundle install" to install the
-              dependencies, and run rails db:seed for the hotels to be created.
-              Run rails server in your terminal and go to the localhost on the
-              specific port shown in the terminal.
+              Check out my Pinterest Clone App built with Ruby on Rails and
+              React/Redux that allows users search for images that they would
+              like to view. I used the Pixabay API to fetch images for this app.
             </p>
-            <a href="https://github.com/SMakaiTakori/doggy_hotel_rails">
+            <a href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp">
               Github Repo
             </a>
           </Col>
@@ -45,14 +42,13 @@ const Projects = () => {
             />
             <br />
             <p>
-              This is a Doggy Hotel App made with Rails that allows users to
-              book reservations with the doggy hotel of their choice. In order
-              to use this app, clone it, run "bundle install" to install the
-              dependencies, and run rails db:seed for the hotels to be created.
-              Run rails server in your terminal and go to the localhost on the
-              specific port shown in the terminal.
+              This is my Pseudo Tamagotchi App inspired by the 90s mini handheld
+              game! that allows users to create a pet and perform activities
+              with it to change it's current mood. I created this app with Rails
+              and Javascript. I plan on adding more features in the future so
+              check back!
             </p>
-            <a href="https://github.com/SMakaiTakori/doggy_hotel_rails">
+            <a href="https://github.com/SMakaiTakori/Pseudo-Tamagotchi-App-RailsJS">
               Github Repo
             </a>
           </Col>
@@ -66,12 +62,9 @@ const Projects = () => {
             />
             <br />
             <p>
-              This is a Doggy Hotel App made with Rails that allows users to
-              book reservations with the doggy hotel of their choice. In order
-              to use this app, clone it, run "bundle install" to install the
-              dependencies, and run rails db:seed for the hotels to be created.
-              Run rails server in your terminal and go to the localhost on the
-              specific port shown in the terminal.
+              I made this Doggy Hotel App made with Rails. It allows users to
+              book reservations with the luxury doggy hotel of their choice. Who
+              doesn't love pampering their pups?
             </p>
             <a href="https://github.com/SMakaiTakori/doggy_hotel_rails">
               Github Repo
