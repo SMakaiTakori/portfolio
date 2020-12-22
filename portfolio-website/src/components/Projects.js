@@ -1,13 +1,9 @@
 import React from "react";
 import ReactPlayer from "react-player";
 
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Image from "react-bootstrap/Image";
 
 const Projects = () => {
   return (
@@ -17,46 +13,35 @@ const Projects = () => {
       <br />
       <Container>
         <Row className="rows">
-          <Col>
+          <Col
+            style={{
+              backgroundColor: "#7d14ae",
+              boxShadow: " 5px 10px yellow",
+            }}
+          >
             <br />
-
-            <Card style={{ width: "22rem", height: "auto", color: "white" }}>
-              <ReactPlayer
-                url="https://youtu.be/iwv-IJ1Vmcg"
-                width="100%"
-                height="100%"
-              />
-              <Card.Body style={{ backgroundColor: "#7d14ae" }}>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-                <Button
-                  href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp"
-                  variant="primary"
-                >
-                  Github Repo
-                </Button>
-              </Card.Body>
-            </Card>
-
-            {/* <h3>Pinterest Clone App</h3>
+            <h4 style={{ color: "white" }}>Pinterest Clone App</h4>
             <br />
             <ReactPlayer
               url="https://youtu.be/iwv-IJ1Vmcg"
               width="350px"
               height="250px"
             />
-            <br />
-            <p>
-              Check out my Pinterest Clone App built with Ruby on Rails and
-              React/Redux that allows users search for images that they would
-              like to view. I used the Pixabay API to fetch images for this app.
-            </p>
-            <a href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp">
-              Github Repo
-            </a> */}
+            <div style={{ backgroundColor: "#7d14ae", color: "white" }}>
+              <br />
+              <p>
+                Check out my Pinterest Clone App built with Ruby on Rails and
+                React/Redux that allows users search for images that they would
+                like to view. I used the Pixabay API to fetch images for this
+                app.
+              </p>
+              <a
+                style={{ color: "yellow" }}
+                href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp"
+              >
+                Github Repo
+              </a>
+            </div>
           </Col>
           <Col>
             <br />
