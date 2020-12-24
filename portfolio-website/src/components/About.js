@@ -1,12 +1,11 @@
 import React from "react";
-import ReactPlayer from "react-player";
-
-import Profile from "../images/Headshot.jpg";
 
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
+
+import Profile from "../images/Headshot.jpg";
 
 const About = () => {
   return (

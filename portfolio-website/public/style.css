@@ -26,6 +26,10 @@ h1 {
   color: purple;
 }
 
+h4 {
+  color: white;
+}
+
 .hero-image {
   width: 2000px;
   height: 900px;
@@ -41,10 +45,25 @@ h1 {
   background-color: rgba(128, 128, 128, 0.6);
   padding: 20px;
 }
+
 .about-col {
   padding: 20px;
 }
 
+.section-header {
+  text-align: center;
+}
+
+.project-col {
+  background-color: rgb(125, 20, 174);
+  box-shadow: 5px 10px rgba(70, 212, 254);
+  color: white;
+  border-right: solid rgba(255, 255, 255, 0.5);
+}
+
+.project-link {
+  color: yellow;
+}
 .rows {
   padding-top: 50px;
   margin-bottom: 50px;

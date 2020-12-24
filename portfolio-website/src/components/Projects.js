@@ -9,23 +9,16 @@ const Projects = () => {
   return (
     <div>
       <br />
-      <h1 style={{ textAlign: "center" }}>Personal Projects</h1>
+      <h1 className="section-header">Personal Projects</h1>
       <br />
       <Container>
         <Row className="rows">
-          <Col
-            md={4}
-            style={{
-              backgroundColor: "rgb(125, 20, 174)",
-              boxShadow: "5px 10px rgba(70, 212, 254)",
-              color: "white",
-              borderRight: "solid rgba(255,255,255, 0.5)",
-            }}
-          >
+          <Col className="project-col" md={4}>
             <br />
-            <h4 style={{ color: "white" }}>Pinterest Clone App</h4>
+            <h4>Pinterest Clone App</h4>
             <br />
             <ReactPlayer
+              className="project-vid"
               url="https://youtu.be/iwv-IJ1Vmcg"
               width="350px"
               height="250px"
@@ -39,22 +32,14 @@ const Projects = () => {
                 app.
               </p>
               <a
-                style={{ color: "yellow" }}
+                className="project-link"
                 href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp"
               >
                 Github Repo
               </a>
             </div>
           </Col>
-          <Col
-            md={4}
-            style={{
-              backgroundColor: "rgb(125, 20, 174)",
-              boxShadow: "5px 10px rgba(70, 212, 254)",
-              color: "white",
-              borderRight: "solid rgba(255,255,255, 0.5)",
-            }}
-          >
+          <Col className="project-col" md={4}>
             <br />
             <h3>Pseudo Tamagotchi</h3>
             <br />
@@ -71,7 +56,7 @@ const Projects = () => {
               Javascript.
             </p>
             <a
-              style={{ color: "yellow" }}
+              className="project-link"
               href="https://github.com/SMakaiTakori/Pseudo-Tamagotchi-App-RailsJS"
             >
               Github Repo
@@ -79,12 +64,10 @@ const Projects = () => {
             <br />
           </Col>
           <Col
+            className="project-col"
             md={4}
             style={{
-              backgroundColor: "rgb(125, 20, 174)",
-              boxShadow: "5px 10px rgba(70, 212, 254)",
-              color: "white",
-              // marginRight: "15px",
+              borderStyle: "none",
             }}
           >
             <br />
@@ -103,7 +86,7 @@ const Projects = () => {
             </p>
             <br />
             <a
-              style={{ color: "yellow" }}
+              className="project-link"
               href="https://github.com/SMakaiTakori/doggy_hotel_rails"
             >
               Github Repo
