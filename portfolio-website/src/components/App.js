@@ -3,19 +3,17 @@ import React from "react";
 import About from "./About";
 import Hero from "./Hero";
 import Projects from "./Projects";
+import Clients from "./Clients";
 
 const App = () => {
   return (
     <div>
       <Hero />
       <About />
+      <br />
       <Projects />
       <br />
-      <h1> Client Projects </h1>
-      <p>Capstone Consulting</p>
-      <p>Advantage Consulting</p>
-      <p>National Black Arts Festival</p>
-      <p>Twice A Child</p>
+      <Clients />
       <br />
       <h1>Blog</h1>
       <label>Read my latest blog here</label>
