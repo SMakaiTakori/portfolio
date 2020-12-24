@@ -13,22 +13,15 @@ const About = () => {
     <div>
       <br />
       <Container>
-        <Row
-          style={{
-            marginTop: "-700px",
-            color: "white",
-          }}
-          className="rows"
-        >
+        <Row className="rows">
           <Col
             style={{
-              backgroundColor: "rgba(128,128,128,0.6)",
               padding: "20px",
             }}
           >
             <Image src={Profile} roundedCircle />
           </Col>
-          <Col style={{ backgroundColor: "rgba(128,128,128,0.6)" }}>
+          <Col>
             <br />
             <hr />
             <h1> Hello World! </h1>
