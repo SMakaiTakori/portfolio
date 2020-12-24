@@ -14,11 +14,7 @@ const About = () => {
       <br />
       <Container>
         <Row className="rows">
-          <Col
-            style={{
-              padding: "20px",
-            }}
-          >
+          <Col className="about-col">
             <Image src={Profile} roundedCircle />
           </Col>
           <Col>
@@ -33,8 +29,8 @@ const About = () => {
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.{" "}
-            </p>{" "}
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
           </Col>
         </Row>
       </Container>
