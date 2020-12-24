@@ -14,9 +14,12 @@ const Projects = () => {
       <Container>
         <Row className="rows">
           <Col
+            md={4}
             style={{
-              backgroundColor: "#7d14ae",
-              boxShadow: "5px 10px yellow",
+              backgroundColor: "rgb(125, 20, 174)",
+              boxShadow: "5px 10px rgba(70, 212, 254)",
+              color: "white",
+              borderRight: "solid rgba(255,255,255, 0.5)",
             }}
           >
             <br />
@@ -27,7 +30,7 @@ const Projects = () => {
               width="350px"
               height="250px"
             />
-            <div style={{ backgroundColor: "#7d14ae", color: "white" }}>
+            <div>
               <br />
               <p>
                 Check out my Pinterest Clone App built with Ruby on Rails and
@@ -43,7 +46,15 @@ const Projects = () => {
               </a>
             </div>
           </Col>
-          <Col>
+          <Col
+            md={4}
+            style={{
+              backgroundColor: "rgb(125, 20, 174)",
+              boxShadow: "5px 10px rgba(70, 212, 254)",
+              color: "white",
+              borderRight: "solid rgba(255,255,255, 0.5)",
+            }}
+          >
             <br />
             <h3>Pseudo Tamagotchi</h3>
             <br />
@@ -55,17 +66,27 @@ const Projects = () => {
             <br />
             <p>
               This is my Pseudo Tamagotchi App inspired by the 90s mini handheld
-              game! that allows users to create a pet and perform activities
-              with it to change it's current mood. I created this app with Rails
-              and Javascript. I plan on adding more features in the future so
-              check back!
+              game! Users can create a pet and perform activities with it to
+              change it's current mood. I created this app with Rails and
+              Javascript.
             </p>
-            <a href="https://github.com/SMakaiTakori/Pseudo-Tamagotchi-App-RailsJS">
+            <a
+              style={{ color: "yellow" }}
+              href="https://github.com/SMakaiTakori/Pseudo-Tamagotchi-App-RailsJS"
+            >
               Github Repo
             </a>
             <br />
           </Col>
-          <Col>
+          <Col
+            md={4}
+            style={{
+              backgroundColor: "rgb(125, 20, 174)",
+              boxShadow: "5px 10px rgba(70, 212, 254)",
+              color: "white",
+              // marginRight: "15px",
+            }}
+          >
             <br />
             <h3>Doggy Hotel App</h3>
             <br />
@@ -80,7 +101,11 @@ const Projects = () => {
               book reservations with the luxury doggy hotel of their choice. Who
               doesn't love pampering their pups?
             </p>
-            <a href="https://github.com/SMakaiTakori/doggy_hotel_rails">
+            <br />
+            <a
+              style={{ color: "yellow" }}
+              href="https://github.com/SMakaiTakori/doggy_hotel_rails"
+            >
               Github Repo
             </a>
           </Col>
