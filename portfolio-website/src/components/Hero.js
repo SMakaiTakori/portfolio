@@ -10,22 +10,10 @@ import Background from "../images/Woodbackground.jpg";
 const Hero = () => {
   return (
     <div>
-      <Image style={{ width: 2000, height: 900 }} src={Background} />
+      <Image className="hero-image" src={Background} />
       <Container>
-        <Row
-          style={{
-            marginTop: "-700px",
-            marginBottom: "450px",
-            color: "white",
-          }}
-          className="rows"
-        >
-          <Col
-            style={{
-              backgroundColor: "rgba(128,128,128,0.6)",
-              padding: "20px",
-            }}
-          >
+        <Row className="hero-text">
+          <Col className="hero-col">
             <h1> Hello World! </h1>
             <p>
               <br />

@@ -22,11 +22,27 @@
         border-right: 1px solid #ccc; 
 } */
 
-h1{
-    color: purple;
+h1 {
+  color: purple;
 }
 
-.rows{
-    padding-top: 50px;
-    margin-bottom: 50px;
+.hero-image {
+  width: 2000px;
+  height: 900px;
+}
+
+.hero-text {
+  margin-top: -700px;
+  margin-bottom: 450px;
+  color: white;
+}
+
+.hero-col {
+  background-color: rgba(128, 128, 128, 0.6);
+  padding: 20px;
+}
+
+.rows {
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
