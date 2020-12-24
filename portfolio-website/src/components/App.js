@@ -9,7 +9,7 @@ import Projects from "./Projects";
 const App = () => {
   return (
     <div>
-      <Image style={{ width: 2000, height: 500 }} src={Background} />
+      <Image style={{ width: 2000, height: 900 }} src={Background} />
       <About />
       <Projects />
       <br />
