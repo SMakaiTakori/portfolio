@@ -1,15 +1,13 @@
 import React from "react";
-// import Alert from 'react-bootstrap/Alert'
-import About from "./About";
-import Image from "react-bootstrap/Image";
 
-import Background from "../images/Woodbackground.jpg";
+import About from "./About";
+import Hero from "./Hero";
 import Projects from "./Projects";
 
 const App = () => {
   return (
     <div>
-      <Image style={{ width: 2000, height: 900 }} src={Background} />
+      <Hero />
       <About />
       <Projects />
       <br />

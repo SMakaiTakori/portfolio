@@ -20,11 +20,17 @@ const About = () => {
           }}
           className="rows"
         >
-          <Col style={{ backgroundColor: "rgba(255,255,255, 0.5)" }}>
+          <Col
+            style={{
+              backgroundColor: "rgba(128,128,128,0.6)",
+              padding: "20px",
+            }}
+          >
             <Image src={Profile} roundedCircle />
           </Col>
-          <Col style={{ backgroundColor: "rgba(255,255,255, 0.5)" }}>
+          <Col style={{ backgroundColor: "rgba(128,128,128,0.6)" }}>
             <br />
+            <hr />
             <h1> Hello World! </h1>
             <br />
             <p>
