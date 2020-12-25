@@ -16,8 +16,11 @@ const Projects = () => {
       <br />
       <CardColumns
         style={{
-          marginLeft: "10px",
-          alignContent: "center",
+          // paddingLeft: "200px",
+          // alignContent: "center",
+          // margin: "0 auto",
+          display: "flex",
+          justifyContent: "center",
         }}
       >
         <Card
