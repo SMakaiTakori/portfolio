@@ -17,8 +17,6 @@ const Projects = () => {
       <CardColumns
         style={{
           marginLeft: "10px",
-          // display: "flex",
-          // flexWrap: "wrap",
           alignContent: "center",
         }}
       >
@@ -27,9 +25,6 @@ const Projects = () => {
             boxShadow: "5px 10px rgba(70, 212, 254) ",
             backgroundColor: " rgba(125, 20, 174)",
             color: "white",
-            // boxShadow:
-            // marginLeft: "200px",
-            // marginRight: "auto",
             width: "24rem",
           }}
         >
@@ -62,8 +57,6 @@ const Projects = () => {
             boxShadow: "5px 10px rgba(70, 212, 254) ",
             backgroundColor: " rgba(125, 20, 174)",
             color: "white",
-            // boxShadow:
-            // marginLeft: "10px",
             width: "24rem",
           }}
         >
@@ -97,8 +90,6 @@ const Projects = () => {
             boxShadow: "5px 10px rgba(70, 212, 254) ",
             backgroundColor: " rgba(125, 20, 174)",
             color: "white",
-            // boxShadow:
-            // marginLeft: "10px",
             width: "24rem",
           }}
         >
@@ -126,91 +117,6 @@ const Projects = () => {
           </Card.Body>
         </Card>
       </CardColumns>
-
-      <Container>
-        <Row className="rows">
-          <Col className="project-col" md={4}>
-            <br />
-            <h4>Pseudo Tamagotchi</h4>
-            <br />
-            <ReactPlayer
-              className="project-vid"
-              url="https://youtu.be/I2t9q1A5bLs"
-              width="350px"
-              height="250px"
-            />
-            <div>
-              <br />
-              <p>
-                This is my Pseudo Tamagotchi App inspired by the 90s mini
-                handheld game! Users can create a pet and perform activities
-                with it to change it's current mood. I created this app with
-                Rails and Javascript.
-              </p>
-              <a
-                className="project-link"
-                href="https://github.com/SMakaiTakori/Pseudo-Tamagotchi-App-RailsJS"
-              >
-                Github Repo
-              </a>
-            </div>
-          </Col>
-          <Col className="project-col" md={4}>
-            <br />
-            <h3>Pseudo Tamagotchi</h3>
-            <br />
-            <ReactPlayer
-              className="project-vid"
-              url="https://youtu.be/I2t9q1A5bLs"
-              width="350px"
-              height="250px"
-            />
-            <br />
-            <p>
-              This is my Pseudo Tamagotchi App inspired by the 90s mini handheld
-              game! Users can create a pet and perform activities with it to
-              change it's current mood. I created this app with Rails and
-              Javascript.
-            </p>
-            <a
-              className="project-link"
-              href="https://github.com/SMakaiTakori/Pseudo-Tamagotchi-App-RailsJS"
-            >
-              Github Repo
-            </a>
-            <br />
-          </Col>
-          <Col
-            className="project-col"
-            md={4}
-            style={{
-              borderStyle: "none",
-            }}
-          >
-            <br />
-            <h3>Doggy Hotel App</h3>
-            <br />
-            <ReactPlayer
-              url="https://youtu.be/oVWAgO4DvxU"
-              width="350px"
-              height="250px"
-            />
-            <br />
-            <p>
-              I made this Doggy Hotel App made with Rails. It allows users to
-              book reservations with the luxury doggy hotel of their choice. Who
-              doesn't love pampering their pups?
-            </p>
-            <br />
-            <a
-              className="project-link"
-              href="https://github.com/SMakaiTakori/doggy_hotel_rails"
-            >
-              Github Repo
-            </a>
-          </Col>
-        </Row>
-      </Container>
     </div>
   );
 };
