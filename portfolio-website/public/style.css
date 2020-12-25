@@ -43,11 +43,19 @@ h4 {
 
 /* Projects Section */
 
+.project-flex {
+  display: flex;
+  justify-content: center;
+}
+
 .project-col {
-  background-color: rgb(125, 20, 174);
+  margin: 20px 200px;
+}
+
+.project-card {
+  /* background-color: rgb(125, 20, 174); */
   box-shadow: 5px 10px rgba(70, 212, 254);
   color: white;
-  border-right: solid rgba(255, 255, 255, 0.5);
 }
 
 .project-vid {

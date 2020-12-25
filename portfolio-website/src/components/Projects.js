@@ -13,19 +13,13 @@ const Projects = () => {
     <>
       <h1 className="section-header">Personal Projects</h1>
       <br />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
+      <div className="project-flex">
         <br />
-        <CardColumns style={{ margin: "20px 200px" }}>
+        <CardColumns className="project-col">
           <Card
+            className="project-card"
             style={{
-              boxShadow: "5px 10px rgba(70, 212, 254) ",
-              backgroundColor: " rgba(125, 20, 174)",
-              color: "white",
+              backgroundColor: "rgba(125, 20, 174)",
               width: "24rem",
             }}
           >
@@ -48,17 +42,19 @@ const Projects = () => {
             </Card.Body>
 
             <Card.Body>
-              <Card.Link href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp">
-                Card Link
+              <Card.Link
+                className="project-link"
+                href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp"
+              >
+                Github Link
               </Card.Link>
             </Card.Body>
           </Card>
 
           <Card
+            className="project-card"
             style={{
-              boxShadow: "5px 10px rgba(70, 212, 254) ",
-              backgroundColor: " rgba(125, 20, 174)",
-              color: "white",
+              backgroundColor: "rgba(125, 20, 174)",
               width: "24rem",
             }}
           >
@@ -81,17 +77,19 @@ const Projects = () => {
             </Card.Body>
 
             <Card.Body>
-              <Card.Link href="https://github.com/SMakaiTakori/Pseudo-Tamagotchi-App-RailsJS">
-                Card Link
+              <Card.Link
+                className="project-link"
+                href="https://github.com/SMakaiTakori/Pseudo-Tamagotchi-App-RailsJS"
+              >
+                Github Link
               </Card.Link>
             </Card.Body>
           </Card>
 
           <Card
+            className="project-card"
             style={{
-              boxShadow: "5px 10px rgba(70, 212, 254) ",
-              backgroundColor: " rgba(125, 20, 174)",
-              color: "white",
+              backgroundColor: "rgba(125, 20, 174)",
               width: "24rem",
             }}
           >
@@ -114,8 +112,11 @@ const Projects = () => {
             </Card.Body>
 
             <Card.Body>
-              <Card.Link href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp">
-                Card Link
+              <Card.Link
+                className="project-link"
+                href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp"
+              >
+                Github Link
               </Card.Link>
             </Card.Body>
           </Card>
