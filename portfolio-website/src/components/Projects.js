@@ -20,7 +20,7 @@ const Projects = () => {
         }}
       >
         <br />
-        <CardColumns style={{ margin: "0 auto" }}>
+        <CardColumns style={{ margin: "20px 200px" }}>
           <Card
             style={{
               boxShadow: "5px 10px rgba(70, 212, 254) ",
