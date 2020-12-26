@@ -46,7 +46,7 @@ const Projects = () => {
                 className="project-link"
                 href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp"
               >
-                Github Link
+                Github Repo
               </Card.Link>
             </Card.Body>
           </Card>
@@ -81,7 +81,7 @@ const Projects = () => {
                 className="project-link"
                 href="https://github.com/SMakaiTakori/Pseudo-Tamagotchi-App-RailsJS"
               >
-                Github Link
+                Github Repo
               </Card.Link>
             </Card.Body>
           </Card>
@@ -116,7 +116,7 @@ const Projects = () => {
                 className="project-link"
                 href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp"
               >
-                Github Link
+                Github Repo
               </Card.Link>
             </Card.Body>
           </Card>
