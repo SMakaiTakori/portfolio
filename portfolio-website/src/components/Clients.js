@@ -12,14 +12,15 @@ const Clients = () => {
     <div>
       <h1 className="section-header"> Client Projects </h1>
       <br />
+      <br />
       <hr />
       <Carousel>
-        <Carousel.Item interval={4000}>
+        <Carousel.Item interval={3000}>
           <a href="http://nbaf.org/" target="_blank">
             <img className="d-block w-100" src={NBAF} alt="NBAF" />
           </a>
         </Carousel.Item>
-        <Carousel.Item interval={4000}>
+        <Carousel.Item interval={3000}>
           <a href="https://advantageconsultingllc.com/" target="_blank">
             <img
               className="d-block w-100"
@@ -28,7 +29,7 @@ const Clients = () => {
             />
           </a>
         </Carousel.Item>
-        <Carousel.Item interval={4000}>
+        <Carousel.Item interval={3000}>
           <a href="https://twiceachildpodcast.com/" target="_blank">
             <img
               className="d-block w-100"
@@ -37,7 +38,7 @@ const Clients = () => {
             />
           </a>
         </Carousel.Item>
-        <Carousel.Item interval={4000}>
+        <Carousel.Item interval={3000}>
           <a href="https://www.capaltstrategies.com/" target="_blank">
             <img
               className="d-block w-100"

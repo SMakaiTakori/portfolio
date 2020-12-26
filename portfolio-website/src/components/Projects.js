@@ -40,7 +40,6 @@ const Projects = () => {
                 app.
               </Card.Text>
             </Card.Body>
-
             <Card.Body>
               <Card.Link
                 className="project-link"
@@ -50,7 +49,6 @@ const Projects = () => {
               </Card.Link>
             </Card.Body>
           </Card>
-
           <Card
             className="project-card"
             style={{
@@ -75,7 +73,6 @@ const Projects = () => {
                 Rails and Javascript.
               </Card.Text>
             </Card.Body>
-
             <Card.Body>
               <Card.Link
                 className="project-link"
@@ -85,7 +82,6 @@ const Projects = () => {
               </Card.Link>
             </Card.Body>
           </Card>
-
           <Card
             className="project-card"
             style={{
@@ -110,7 +106,6 @@ const Projects = () => {
                 this app.
               </Card.Text>
             </Card.Body>
-
             <Card.Body>
               <Card.Link
                 className="project-link"
