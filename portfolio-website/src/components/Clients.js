@@ -18,10 +18,6 @@ const Clients = () => {
           <a href="http://nbaf.org/" target="_blank">
             <img className="d-block w-100" src={NBAF} alt="NBAF" />
           </a>
-          <Carousel.Caption>
-            {/* <h3>National Black Arts Festival</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={4000}>
           <a href="https://advantageconsultingllc.com/" target="_blank">
@@ -31,14 +27,7 @@ const Clients = () => {
               alt="Advantage Consulting"
             />
           </a>
-          <Carousel.Caption>
-            {/* <h3>Advantage Consulting LLC</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p> */}
-          </Carousel.Caption>
         </Carousel.Item>
-
         <Carousel.Item interval={4000}>
           <a href="https://twiceachildpodcast.com/" target="_blank">
             <img
@@ -47,10 +36,6 @@ const Clients = () => {
               alt="Twice A Child"
             />
           </a>
-          <Carousel.Caption>
-            {/* <h3>Twice A Child</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={4000}>
           <a href="https://www.capaltstrategies.com/" target="_blank">
@@ -60,12 +45,6 @@ const Clients = () => {
               alt="Capstone Alternative Strategies"
             />
           </a>
-          <Carousel.Caption>
-            {/* <h3>Capstone Alternative Strategies</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p> */}
-          </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
       <br />
