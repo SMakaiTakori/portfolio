@@ -14,7 +14,7 @@ const About = () => {
       <Container>
         <Row className="rows">
           <Col className="about-col">
-            <Image src={Profile} roundedCircle />
+            <Image src={Profile} roundedCircle style={{ marginTop: "60px" }} />
           </Col>
           <Col>
             <br />
@@ -22,13 +22,25 @@ const About = () => {
             <h1> Hello World! </h1>
             <br />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              I am a passionate Full Stack Software Engineer and Web Developer
+              with a background in finance and customer service, seeking a new
+              and challenging position to enhance website design and
+              functionality. I have experience building full stack applications
+              with CSS, JavaScript, Ruby, Rails, and React, along with WordPress
+              and HubSpot. I have also worked independently as well as
+              collaborated in a team setting to strategize, debug, and use
+              object oriented programming to create modern websites and
+              web-based applications.
+            </p>
+            <p>
+              In my spare time, I enjoy building (and breaking) new applications
+              to keep learning and practicing. I also enjoy attending virtual
+              community workshops and events held within the Atlanta tech
+              community to build on my current skills, help others do the same,
+              and connect with more developers. I also love participating in
+              coding hackathons that are geared towards civic projects within my
+              community. If you would like to contact me about a civic project
+              or another opportunity.
             </p>
           </Col>
         </Row>
