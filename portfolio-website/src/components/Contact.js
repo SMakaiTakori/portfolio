@@ -8,7 +8,9 @@ import Row from "react-bootstrap/Row";
 const Contact = () => {
   return (
     <div>
-      <h1 className="section-header">Contact</h1>
+      <h1 className="section-header" style={{ marginBottom: "40px" }}>
+        Contact
+      </h1>
       <Container>
         <Row>
           <Col>
