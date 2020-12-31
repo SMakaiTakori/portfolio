@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import Projects from "./Projects";
 import Clients from "./Clients";
 import Blog from "./Blog";
+import Contact from "./Contact";
 
 const App = () => {
   return (
@@ -18,8 +19,7 @@ const App = () => {
       <br />
       <Blog />
       <br />
-      <h1>Contact</h1>
-      You can contact me at ... Or follow me on social media
+      <Contact />
       <br />
     </div>
   );
