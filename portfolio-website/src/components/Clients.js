@@ -14,7 +14,7 @@ const Clients = () => {
       <br />
       <br />
       <hr />
-      <Carousel>
+      <Carousel style={{ marginBottom: "-50px" }}>
         <Carousel.Item interval={3000}>
           <a href="http://nbaf.org/" target="_blank">
             <img className="d-block w-100" src={NBAF} alt="NBAF" />
