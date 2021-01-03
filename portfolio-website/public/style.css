@@ -72,6 +72,12 @@ h4 {
 
 /* Client Section */
 
+.client-section {
+  /* background-color: yellow; */
+  /* background-color: rgba(255, 230, 6, 0.6); */
+  background-color: rgba(125, 20, 174);
+}
+
 .client-list {
   width: 300px;
   height: 200px;

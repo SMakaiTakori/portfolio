@@ -18,23 +18,25 @@ const Clients = () => {
       <br />
       <br />
       <hr />
-      <Container style={{ width: "1200px" }}>
-        <Row>
-          <Col>
-            <Image className="client-list" src={TwiceAChild} />
-          </Col>
-          <Col>
-            <Image className="client-list" src={NBAF} />
-          </Col>
+      <div className="client-section">
+        <Container>
+          <Row>
+            <Col>
+              <Image className="client-list" src={TwiceAChild} />
+            </Col>
+            <Col>
+              <Image className="client-list" src={NBAF} />
+            </Col>
 
-          <Col>
-            <Image className="client-list" src={Capstone} />
-          </Col>
-          <Col>
-            <Image className="client-list" src={Advantage} />
-          </Col>
-        </Row>
-      </Container>
+            <Col>
+              <Image className="client-list" src={Capstone} />
+            </Col>
+            <Col>
+              <Image className="client-list" src={Advantage} />
+            </Col>
+          </Row>
+        </Container>
+      </div>
       {/* <Carousel>
         <Carousel.Item interval={3000}>
           <a href="http://nbaf.org/" target="_blank">
