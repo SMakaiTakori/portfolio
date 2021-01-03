@@ -13,7 +13,7 @@ const Hero = () => {
     const heroIntro = document.querySelector("#heroIntro");
     init(heroIntro, {
       showCursor: false,
-      strings: ["Use with React.js!", "Yeah!"],
+      strings: ["I am a Software Engineer", "I am a Lifetime Learner"],
     });
   });
 
@@ -24,7 +24,7 @@ const Hero = () => {
         <Row className="hero-text">
           <Col className="hero-col">
             <h1> Hello World! </h1>
-            <p id="heroIntro"></p>
+            <h4 id="heroIntro"></h4>
             {/* <br />
               This will be some kind of animation..
               <br />
