@@ -13,7 +13,12 @@ const Hero = () => {
     const heroIntro = document.querySelector("#heroIntro");
     init(heroIntro, {
       showCursor: false,
-      strings: ["I am a Software Engineer", "I am a Lifetime Learner"],
+      disableBackTyping: true,
+      strings: [
+        "I am a Software Engineer",
+        "I am a Lifetime Learner",
+        "I am a Web Developer",
+      ],
     });
   });
 
