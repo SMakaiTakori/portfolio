@@ -30,16 +30,6 @@ const Hero = () => {
           <Col className="hero-col">
             <h1> Hello World! </h1>
             <h4 id="heroIntro"></h4>
-            {/* <br />
-              This will be some kind of animation..
-              <br />
-              I am a software developer...
-              <br />
-              I am always learning...
-              <br />
-              Lorem Ipsum...
-              <br />
-            </p>{" "} */}
           </Col>
         </Row>
       </Container>
