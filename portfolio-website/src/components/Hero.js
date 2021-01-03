@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { init } from "ityped";
 import Image from "react-bootstrap/Image";
 
 import Container from "react-bootstrap/Container";
@@ -8,6 +9,14 @@ import Row from "react-bootstrap/Row";
 import Background from "../images/Woodbackground.jpg";
 
 const Hero = () => {
+  useEffect(() => {
+    const heroIntro = document.querySelector("#heroIntro");
+    init(heroIntro, {
+      showCursor: false,
+      strings: ["Use with React.js!", "Yeah!"],
+    });
+  });
+
   return (
     <div>
       <Image className="hero-image" src={Background} />
@@ -15,8 +24,8 @@ const Hero = () => {
         <Row className="hero-text">
           <Col className="hero-col">
             <h1> Hello World! </h1>
-            <p>
-              <br />
+            <p id="heroIntro"></p>
+            {/* <br />
               This will be some kind of animation..
               <br />
               I am a software developer...
@@ -25,7 +34,7 @@ const Hero = () => {
               <br />
               Lorem Ipsum...
               <br />
-            </p>
+            </p>{" "} */}
           </Col>
         </Row>
       </Container>
