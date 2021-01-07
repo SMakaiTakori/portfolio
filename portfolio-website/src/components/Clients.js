@@ -9,7 +9,7 @@ import Image from "react-bootstrap/Image";
 import TwiceAChild from "../images/TwiceAChildLogo.png";
 import NBAF from "../images/NBAF_BlackArts_Logo-300x95.jpg";
 import Capstone from "../images/capstonelogo.png";
-import Advantage from "../images/advantagelogo.png";
+import Advantage from "../images/Advantage.png";
 
 const Clients = () => {
   return (
@@ -19,67 +19,24 @@ const Clients = () => {
       <br />
       <hr />
       <div className="client-section">
-        <Container>
+        <Container className="project-col">
           <Row>
             <Col>
               <Image className="client-list" src={TwiceAChild} />
-            </Col>
-            <Col>
               <Image className="client-list" src={NBAF} />
             </Col>
+            <Col>{/* <Image className="client-list" src={NBAF} /> */}</Col>
 
             <Col>
               <Image className="client-list" src={Capstone} />
-            </Col>
-            <Col>
               <Image className="client-list" src={Advantage} />
             </Col>
+            <Col>{/* <Image className="client-list" src={Advantage} /> */}</Col>
           </Row>
         </Container>
       </div>
-      {/* <Carousel>
-        <Carousel.Item interval={3000}>
-          <a href="http://nbaf.org/" target="_blank">
-            <img className="" src={NBAF} alt="NBAF" />
-          </a>
-
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <a href="https://advantageconsultingllc.com/" target="_blank">
-            <img
-              className="d-block w-100"
-              src={Advantage}
-              alt="Advantage Consulting"
-            />
-          </a>
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <a href="https://twiceachildpodcast.com/" target="_blank">
-            <img
-              className="d-block w-100"
-              src={TwiceAChild}
-              alt="Twice A Child"
-            />
-          </a>
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <a href="https://www.capaltstrategies.com/" target="_blank">
-            <img
-              className="d-block w-100"
-              src={Capstone}
-              alt="Capstone Alternative Strategies"
-            />
-          </a>
-        </Carousel.Item>
-      </Carousel> */}
-
       <br />
+      <hr />
     </div>
   );
 };

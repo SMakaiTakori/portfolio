@@ -80,7 +80,9 @@ h4 {
 .client-section {
   /* background-color: yellow; */
   /* background-color: rgba(255, 230, 6, 0.6); */
-  background-color: rgba(125, 20, 174);
+  background-color: rgb(192, 192, 192, 0.5);
+  display: flex;
+  justify-content: center;
 }
 
 .client-list {
