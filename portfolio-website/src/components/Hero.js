@@ -15,9 +15,9 @@ const Hero = () => {
       showCursor: false,
       disableBackTyping: true,
       strings: [
-        "I am a Software Engineer",
-        "I am a Lifetime Learner",
-        "I am a Web Developer",
+        "I am a { Software Engineer }",
+        "I am a { Lifetime Learner }",
+        "I am a { Web Developer }",
       ],
     });
   });
@@ -28,7 +28,7 @@ const Hero = () => {
       <Container>
         <Row className="hero-text">
           <Col className="hero-col">
-            <h1> Hello World! </h1>
+            <h1 className="hero-title"> Hello World! </h1>
             <h4 id="heroIntro"></h4>
           </Col>
         </Row>

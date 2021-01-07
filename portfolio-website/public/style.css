@@ -21,11 +21,16 @@ h4 {
 
 #heroIntro {
   padding-bottom: 20px;
+  font-size: 3em;
 }
 
 .hero-image {
   width: 2000px;
   height: 900px;
+}
+
+.hero-title {
+  font-size: 6em;
 }
 
 .hero-text {
