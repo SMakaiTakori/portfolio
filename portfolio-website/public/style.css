@@ -19,18 +19,18 @@ h4 {
 
 /* Hero Section  */
 
-#heroIntro {
-  padding-bottom: 20px;
-  font-size: 3em;
-}
-
 .hero-image {
   width: 2000px;
   height: 900px;
 }
 
+#heroIntro {
+  padding-bottom: 20px;
+  font-size: 3em;
+}
+
 .hero-title {
-  font-size: 6em;
+  font-size: 5em;
 }
 
 .hero-text {

@@ -14,6 +14,7 @@ const Hero = () => {
     init(heroIntro, {
       showCursor: false,
       disableBackTyping: true,
+      // loop: false,
       strings: [
         "I am a { Software Engineer }",
         "I am a { Lifetime Learner }",

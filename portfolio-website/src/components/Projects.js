@@ -35,7 +35,7 @@ const Projects = () => {
             <Card.Body>
               <Card.Text>
                 Check out my Pinterest Clone App built with Ruby on Rails and
-                React/Redux that allows users search for images that they would
+                React/Redux that allows users to search for images they would
                 like to view. I used the Pixabay API to fetch images for this
                 app.
               </Card.Text>
