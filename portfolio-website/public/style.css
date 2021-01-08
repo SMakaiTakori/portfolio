@@ -86,11 +86,13 @@ h4 {
 }
 
 .client-list {
-  width: 50%;
-
-  /* height: 200px; */
+  width: 25%;
+  margin: auto;
 }
 
+.col .client-logos {
+  display: flex;
+}
 /* div.carousel:hover {
   box-shadow: inset 0px 0px 0 5000px rgba(0, 0, 0, 0.5);
   background-color: blue;

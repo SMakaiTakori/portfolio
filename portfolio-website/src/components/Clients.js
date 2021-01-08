@@ -21,20 +21,13 @@ const Clients = () => {
       <div className="client-section">
         <Container className="project-col">
           <Row>
-            <Col>
-              <Image className="client-list" src={TwiceAChild} />
+            <Col className="client-logos">
               <Image className="client-list" src={NBAF} />
-              {/* 
-              <Image className="client-list" src={Advantage} />
-              <Image className="client-list" src={Capstone} /> */}
-            </Col>
-            <Col>
+              <Image className="client-list" src={TwiceAChild} />
+
               <Image className="client-list" src={Advantage} />
               <Image className="client-list" src={Capstone} />
             </Col>
-
-            {/* <Col></Col> */}
-            {/* <Col><Image className="client-list" src={Advantage} /></Col> */}
           </Row>
         </Container>
       </div>
