@@ -14,12 +14,13 @@ import Advantage from "../images/Advantage.png";
 const Clients = () => {
   return (
     <div>
+      <hr />
       <h1 className="section-header"> Clients </h1>
       <br />
       <br />
-      <hr />
+
       <div className="client-section">
-        <Container className="project-col">
+        <Container className="client-container">
           <Row>
             <Col className="client-logos">
               <Image className="client-list" src={NBAF} />

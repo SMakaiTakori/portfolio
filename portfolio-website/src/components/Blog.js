@@ -6,6 +6,7 @@ import Button from "react-bootstrap/Button";
 const Blog = () => {
   return (
     <div>
+      <br />
       <h1 className="section-header" style={{ marginBottom: "50px" }}>
         My Blog
       </h1>

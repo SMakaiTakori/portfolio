@@ -7,23 +7,19 @@ import Row from "react-bootstrap/Row";
 
 const Contact = () => {
   return (
-    <div>
-      <h1 className="section-header" style={{ marginBottom: "40px" }}>
+    <div className="social-background">
+      {/* <h1 className="section-header" style={{ marginBottom: "40px" }}>
         Contact
-      </h1>
-      <Container>
-        <Row>
-          <Col>
-            <SocialIcon url="http://twitter.com/MakaiTakori" />
+      </h1> */}
+      <br />
 
-            <SocialIcon url="https://www.linkedin.com/in/makai-takori/" />
+      <SocialIcon url="http://twitter.com/MakaiTakori" />
 
-            <SocialIcon url="https://github.com/SMakaiTakori" />
+      <SocialIcon url="https://www.linkedin.com/in/makai-takori/" />
 
-            <SocialIcon url="mailto:makai.takori@gmail.com" />
-          </Col>
-        </Row>
-      </Container>
+      <SocialIcon url="https://github.com/SMakaiTakori" />
+
+      <SocialIcon url="mailto:makai.takori@gmail.com" />
     </div>
   );
 };

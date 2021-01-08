@@ -7,7 +7,10 @@ import CardColumns from "react-bootstrap/CardColumns";
 const Projects = () => {
   return (
     <>
+      <hr />
+
       <h1 className="section-header">Personal Projects</h1>
+      <br />
       <br />
       <div className="project-flex">
         <br />

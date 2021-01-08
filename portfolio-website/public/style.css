@@ -1,5 +1,5 @@
 h1 {
-  color: purple;
+  color: rgba(125, 20, 174);
 }
 
 h4 {
@@ -10,6 +10,7 @@ h4 {
   margin-top: 50px;
   margin-bottom: 20px;
   text-align: center;
+  font-size: 4em;
 }
 
 .rows {
@@ -62,8 +63,6 @@ h4 {
 }
 
 .project-card {
-  /* background-color: rgb(125, 20, 174); */
-  /* box-shadow: 5px 10px rgba(70, 212, 254); */
   color: white;
 }
 
@@ -78,11 +77,9 @@ h4 {
 /* Client Section */
 
 .client-section {
-  /* background-color: yellow; */
-  /* background-color: rgba(255, 230, 6, 0.6); */
-  background-color: rgb(192, 192, 192, 0.5);
+  background-color: rgba(128, 128, 128, 0.4);
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .client-list {
@@ -90,10 +87,20 @@ h4 {
   margin: auto;
 }
 
+.client-container {
+  margin: 50px 200px;
+}
+
 .col .client-logos {
   display: flex;
 }
-/* div.carousel:hover {
-  box-shadow: inset 0px 0px 0 5000px rgba(0, 0, 0, 0.5);
-  background-color: blue;
+
+/* Contact Section */
+
+a.social-icon {
+  margin-left: 30px;
+}
+
+/* .social-background {
+  background-color: rgba(128, 128, 128, 0.6);
 } */
