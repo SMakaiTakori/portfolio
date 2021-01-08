@@ -24,19 +24,18 @@ const Clients = () => {
             <Col>
               <Image className="client-list" src={TwiceAChild} />
               <Image className="client-list" src={NBAF} />
-            </Col>
-            <Col>{/* <Image className="client-list" src={NBAF} /> */}</Col>
 
-            <Col>
-              <Image className="client-list" src={Capstone} />
               <Image className="client-list" src={Advantage} />
+              <Image className="client-list" src={Capstone} />
             </Col>
-            <Col>{/* <Image className="client-list" src={Advantage} /> */}</Col>
+            {/* <Col><Image className="client-list" src={NBAF} /></Col> */}
+
+            {/* <Col></Col> */}
+            {/* <Col><Image className="client-list" src={Advantage} /></Col> */}
           </Row>
         </Container>
       </div>
       <br />
-      <hr />
     </div>
   );
 };
