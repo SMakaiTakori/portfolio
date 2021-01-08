@@ -14,11 +14,8 @@ import Advantage from "../images/Advantage.png";
 const Clients = () => {
   return (
     <div>
-      <hr />
       <h1 className="section-header"> Clients </h1>
       <br />
-      <br />
-
       <div className="client-section">
         <Container className="client-container">
           <Row>
@@ -32,7 +29,6 @@ const Clients = () => {
           </Row>
         </Container>
       </div>
-      <br />
     </div>
   );
 };

@@ -5,13 +5,11 @@ import Button from "react-bootstrap/Button";
 
 const Blog = () => {
   return (
-    <div>
+    <div className="blog-section">
+      <h1 className="section-header">My Blog</h1>
       <br />
-      <h1 className="section-header" style={{ marginBottom: "50px" }}>
-        My Blog
-      </h1>
-      <Card className="text-center">
-        <Card.Body>
+      <Card className="text-center ">
+        <Card.Body className=" blog-card">
           <Card.Title></Card.Title>
           <Card.Text>
             Interested in learning more about me and my tech journey? Check out
