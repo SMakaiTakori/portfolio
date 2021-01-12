@@ -12,7 +12,7 @@ const About = () => {
     <div>
       <br />
       <Container>
-        <Row className="rows">
+        <Row id="about" className="rows">
           <Col className="about-col">
             <Image src={Profile} roundedCircle style={{ marginTop: "60px" }} />
           </Col>

@@ -36,7 +36,6 @@ h4 {
 
 .hero-subtitle {
   font-size: 4em;
-  /* color: black; */
 }
 
 .hero-text {
@@ -47,13 +46,14 @@ h4 {
 
 .hero-col {
   background-color: rgba(128, 128, 128, 0.6);
-  padding: 60px;
+
+  padding: 20px;
 }
 
 /* About Section */
 
 .about-col {
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 /* Projects Section */

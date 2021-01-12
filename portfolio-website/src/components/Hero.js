@@ -5,6 +5,7 @@ import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import Button from "react-bootstrap/Button";
 
 import Background from "../images/Woodbackground.jpg";
 
@@ -17,7 +18,7 @@ const Hero = () => {
       // loop: false,
       strings: [
         "{ Software Engineer }",
-        "  { Lifetime Learner }",
+        "{ Lifetime Learner }",
         "{ Full Stack Web Developer }",
       ],
     });
@@ -32,6 +33,9 @@ const Hero = () => {
             <h1 className="hero-title"> Hello World! </h1>
             <h2 className="hero-subtitle">I'm Makai Takori.</h2>
             <h4 id="heroIntro"></h4>
+            <a href="#about">
+              <Button variant="primary">Who Am I?</Button>
+            </a>
           </Col>
         </Row>
       </Container>
