@@ -12,7 +12,7 @@ const Contact = () => {
       <Container>
         <Row>
           <Col>
-            <p>Copyright 2020 - by S. Makai Takori </p>
+            <p className="social-text">Copyright 2020 - by S. Makai Takori </p>
           </Col>
 
           <Col>

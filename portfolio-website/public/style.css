@@ -27,11 +27,16 @@ h4 {
 
 #heroIntro {
   padding-bottom: 20px;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .hero-title {
   font-size: 5em;
+}
+
+.hero-subtitle {
+  font-size: 4em;
+  /* color: black; */
 }
 
 .hero-text {
@@ -113,9 +118,16 @@ a.social-icon {
   margin-left: 30px;
   float: right;
 }
+.social-svg-icon {
+  fill: white !important;
+}
+
+.social-text {
+  color: white;
+}
 
 .social-background {
   background-color: rgba(125, 20, 174);
   margin-top: 5em;
-  padding: 1.5em;
+  padding: 1.2em;
 }

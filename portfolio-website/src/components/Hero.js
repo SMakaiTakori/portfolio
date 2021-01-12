@@ -16,9 +16,9 @@ const Hero = () => {
       disableBackTyping: true,
       // loop: false,
       strings: [
-        "I am a { Software Engineer }",
-        "I am a { Lifetime Learner }",
-        "I am a { Web Developer }",
+        "{ Software Engineer }",
+        "  { Lifetime Learner }",
+        "{ Full Stack Web Developer }",
       ],
     });
   });
@@ -30,6 +30,7 @@ const Hero = () => {
         <Row className="hero-text">
           <Col className="hero-col">
             <h1 className="hero-title"> Hello World! </h1>
+            <h2 className="hero-subtitle">I'm Makai Takori.</h2>
             <h4 id="heroIntro"></h4>
           </Col>
         </Row>
