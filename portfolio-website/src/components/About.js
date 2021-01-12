@@ -9,11 +9,11 @@ import Profile from "../images/Headshot.jpg";
 
 const About = () => {
   return (
-    <div>
+    <div className="about-col">
       <br />
       <Container>
         <Row id="about" className="rows">
-          <Col className="about-col">
+          <Col>
             <Image src={Profile} roundedCircle style={{ marginTop: "60px" }} />
           </Col>
           <Col>
