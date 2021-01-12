@@ -6,13 +6,14 @@ import Projects from "./Projects";
 import Clients from "./Clients";
 import Blog from "./Blog";
 import Contact from "./Contact";
+import Skills from "./Skills";
 
 const App = () => {
   return (
     <div>
       <Hero />
       <About />
-      <br />
+      <Skills />
       <Projects />
       <br />
       <Clients />
