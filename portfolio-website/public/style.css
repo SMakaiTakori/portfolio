@@ -118,8 +118,8 @@ h4 {
 /* Client Section */
 
 .client-section {
-  /* background-color: rgba(128, 128, 128, 0.3); */
-  background-color: #f8f9fa;
+  background-color: rgba(128, 128, 128, 0.3);
+  /* background-color: #f8f9fa;                 */
   display: flex;
   /* justify-content: center; */
 }

@@ -11,6 +11,7 @@ import Rails from "../images/Ruby.png";
 import JS from "../images/javascript.jpg";
 import CSS from "../images/htmlcss.png";
 import Git from "../images/git.png";
+import PDF from "../documents/Resume.pdf";
 
 const Skills = () => {
   return (
@@ -34,8 +35,8 @@ const Skills = () => {
         </Container>
       </div>
       <div className="skillsbtn-div">
-        <a href="#">
-          <Button className="skills-btn">View My Resume</Button>
+        <a href={PDF} target="_blank">
+          <Button className="skills-btn">Download My Resume</Button>
         </a>
       </div>
     </div>
