@@ -74,19 +74,21 @@ h4 {
 }
 
 .skills-list {
-  width: 25%;
-  margin: auto;
+  width: 20%;
+  /* margin-left: 5px; */
 }
 
-.skills-icons {
+.col .skills-icons {
   display: flex;
 }
 
-.skills-btn {
-  background-color: rgba(125, 20, 174) !important;
-  border-color: rgba(125, 20, 174) !important;
-  /* font-size: 2em !important; */
+.skillsbtn-div {
   text-align: center;
+}
+.skills-btn {
+  background-color: rgba(125, 20, 174, 0.8) !important;
+  border-color: rgba(125, 20, 174) !important;
+  font-size: 1.2em !important;
   margin-top: 20px;
 }
 

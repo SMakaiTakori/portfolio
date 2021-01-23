@@ -29,11 +29,14 @@ const Skills = () => {
             </Col>
           </Row>
           {/* <Col className="">
-            <a href="#">
-              <Button className="skills-btn">View My Resume</Button>
-            </a>
+           
           </Col> */}
         </Container>
+      </div>
+      <div className="skillsbtn-div">
+        <a href="#">
+          <Button className="skills-btn">View My Resume</Button>
+        </a>
       </div>
     </div>
   );
