@@ -66,15 +66,28 @@ h4 {
 /* Skills Section */
 
 .skills-section {
-  background-color: rgba(128, 128, 128, 0.4);
+  /* background-color: rgba(128, 128, 128, 0.2); */
   display: flex;
 }
 .skills-container {
   margin: 50px 200px;
 }
 
+.skills-list {
+  width: 25%;
+  margin: auto;
+}
+
 .skills-icons {
   display: flex;
+}
+
+.skills-btn {
+  background-color: rgba(125, 20, 174) !important;
+  border-color: rgba(125, 20, 174) !important;
+  /* font-size: 2em !important; */
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* Projects Section */
@@ -103,7 +116,8 @@ h4 {
 /* Client Section */
 
 .client-section {
-  background-color: rgba(128, 128, 128, 0.4);
+  /* background-color: rgba(128, 128, 128, 0.3); */
+  background-color: #f8f9fa;
   display: flex;
   /* justify-content: center; */
 }
