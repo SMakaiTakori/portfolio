@@ -161,6 +161,7 @@ a.social-icon {
 
 .social-text {
   color: white;
+  margin-block-start: revert;
 }
 
 .social-background {

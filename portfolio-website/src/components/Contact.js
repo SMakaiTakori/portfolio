@@ -11,7 +11,7 @@ const Contact = () => {
       <Container>
         <Row>
           <Col>
-            <p className="social-text">Copyright 2020 - by S. Makai Takori </p>
+            <p className="social-text">Copyright 2020 - S. Makai Takori</p>
           </Col>
 
           <Col>
