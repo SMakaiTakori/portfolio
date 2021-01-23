@@ -40,7 +40,7 @@ h4 {
 
 .hero-text {
   margin-top: -700px;
-  margin-bottom: 350px;
+  margin-bottom: 200px;
   color: white;
   text-align: center;
 }
@@ -61,6 +61,20 @@ h4 {
 .about-col {
   background-color: #f8f9fa;
   padding: 20px;
+}
+
+/* Skills Section */
+
+.skills-section {
+  background-color: rgba(128, 128, 128, 0.4);
+  display: flex;
+}
+.skills-container {
+  margin: 50px 200px;
+}
+
+.skills-icons {
+  display: flex;
 }
 
 /* Projects Section */
@@ -136,5 +150,6 @@ a.social-icon {
 .social-background {
   background-color: rgba(125, 20, 174);
   margin-top: 5em;
+  margin-bottom: -5em;
   padding: 1.2em;
 }

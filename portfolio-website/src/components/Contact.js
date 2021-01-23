@@ -8,7 +8,6 @@ import Row from "react-bootstrap/Row";
 const Contact = () => {
   return (
     <div className="social-background">
-      {/* <h1 className="section-header"></h1> */}
       <Container>
         <Row>
           <Col>

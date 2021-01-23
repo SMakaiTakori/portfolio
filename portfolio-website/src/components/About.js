@@ -39,8 +39,7 @@ const About = () => {
               community to build on my current skills, help others do the same,
               and connect with more developers. I also love participating in
               coding hackathons that are geared towards civic projects within my
-              community. If you would like to contact me about a civic project
-              or another opportunity.
+              community.
             </p>
           </Col>
         </Row>
