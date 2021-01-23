@@ -12,10 +12,10 @@ import Background from "../images/Woodbackground.jpg";
 const Hero = () => {
   useEffect(() => {
     const heroIntro = document.querySelector("#heroIntro");
+
     init(heroIntro, {
       showCursor: false,
       disableBackTyping: true,
-      // loop: false,
       strings: [
         "{ Software Engineer }",
         "{ Lifetime Learner }",
@@ -34,7 +34,7 @@ const Hero = () => {
             <h2 className="hero-subtitle">I'm Makai Takori.</h2>
             <h4 id="heroIntro"></h4>
             <a href="#about">
-              <Button variant="primary">Who Am I?</Button>
+              <Button className="hero-btn">Who Am I?</Button>
             </a>
           </Col>
         </Row>

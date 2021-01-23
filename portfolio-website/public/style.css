@@ -27,29 +27,35 @@ h4 {
 
 #heroIntro {
   padding-bottom: 20px;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .hero-title {
-  font-size: 5em;
+  font-size: 7em;
 }
 
 .hero-subtitle {
-  font-size: 4em;
+  font-size: 5em;
 }
 
 .hero-text {
   margin-top: -700px;
   margin-bottom: 350px;
   color: white;
+  text-align: center;
 }
 
 .hero-col {
-  background-color: rgba(128, 128, 128, 0.6);
-
+  /* background-color: rgba(128, 128, 128, 0.6); */
   padding: 20px;
 }
 
+.hero-btn {
+  background-color: rgba(125, 20, 174, 0.6) !important;
+  border-color: rgba(125, 20, 174) !important;
+  font-size: 2em !important;
+  margin-top: 20px;
+}
 /* About Section */
 
 .about-col {
