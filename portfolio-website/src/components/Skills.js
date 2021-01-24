@@ -29,9 +29,6 @@ const Skills = () => {
               <Image className="skills-list" src={Git} />
             </Col>
           </Row>
-          {/* <Col className="">
-           
-          </Col> */}
         </Container>
       </div>
       <div className="skillsbtn-div">

@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
+import { SocialIcon } from "react-social-icons";
 
 import Profile from "../images/Headshot.jpg";
 
@@ -39,7 +40,14 @@ const About = () => {
               community to build on my current skills, help others do the same,
               and connect with more developers. I also love participating in
               coding hackathons that are geared towards civic projects within my
-              community.
+              community. If you have any projects or opportunities you think I'd
+              be interested in, let's connect!
+              <div className="about-social">
+                <SocialIcon url="http://twitter.com/MakaiTakori" />
+                <SocialIcon url="https://www.linkedin.com/in/makai-takori/" />
+                <SocialIcon url="https://github.com/SMakaiTakori" />
+                <SocialIcon url="mailto:makai.takori@gmail.com" />
+              </div>
             </p>
           </Col>
         </Row>
