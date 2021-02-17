@@ -1,13 +1,17 @@
 import React from "react";
-import ReactPlayer from "react-player";
 
+import ReactPlayer from "react-player";
+import Image from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
+
+import Pinterest from "../images/Pinterest.png";
 
 const Projects = () => {
   return (
     <>
       <h1 className="section-header">Personal Projects</h1>
+
       <br />
       <div className="project-flex">
         <CardColumns className="project-col">
@@ -21,12 +25,22 @@ const Projects = () => {
             <Card.Title style={{ marginTop: "10px", marginLeft: "15px" }}>
               Pinterest Clone App
             </Card.Title>
-            <ReactPlayer
+            <Card.Link
+              className="project-link"
+              href="https://pinterestclone-client.herokuapp.com/"
+            >
+              <Image
+                className="project-img"
+                src={Pinterest}
+                style={{ marginLeft: " 15px", width: "350px", height: "250px" }}
+              />
+            </Card.Link>
+            {/* <ReactPlayer
               className="project-vid"
               url="https://youtu.be/iwv-IJ1Vmcg"
               width="350px"
               height="250px"
-            />
+            /> */}
             <Card.Body>
               <Card.Text>
                 Check out my Pinterest Clone App built with Ruby on Rails and
@@ -41,13 +55,6 @@ const Projects = () => {
                 href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp"
               >
                 Github Repo
-              </Card.Link>
-              <br />
-              <Card.Link
-                className="project-link"
-                href="https://pinterestclone-client.herokuapp.com/"
-              >
-                Website
               </Card.Link>
             </Card.Body>
           </Card>
