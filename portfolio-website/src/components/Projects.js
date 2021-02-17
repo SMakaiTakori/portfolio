@@ -42,6 +42,13 @@ const Projects = () => {
               >
                 Github Repo
               </Card.Link>
+              <br />
+              <Card.Link
+                className="project-link"
+                href="https://pinterestclone-client.herokuapp.com/"
+              >
+                Website
+              </Card.Link>
             </Card.Body>
           </Card>
           <Card
@@ -85,20 +92,19 @@ const Projects = () => {
             }}
           >
             <Card.Title style={{ marginTop: "10px", marginLeft: "15px" }}>
-              Pinterest Clone App
+              Doggy Hotel App
             </Card.Title>
             <ReactPlayer
               className="project-vid"
-              url="https://youtu.be/iwv-IJ1Vmcg"
+              url="https://youtu.be/iOdLfQ4Ha9g"
               width="350px"
               height="250px"
             />
             <Card.Body>
               <Card.Text>
-                Check out my Pinterest Clone App built with Ruby on Rails and
-                React/Redux that allows users to search for images that they
-                would like to view. I used the Pixabay API to fetch images for
-                this app.
+                Check out my Doggy Hotel App that allows users to book
+                reservations with the doggy hotel of their choice. I built this
+                app using Ruby on Rails.
               </Card.Text>
             </Card.Body>
             <Card.Body>
