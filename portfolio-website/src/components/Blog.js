@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 const Blog = () => {
   return (
     <div className="blog-section">
-      <h1 className="section-header">My Blog</h1>
+      <h1 className="skills-header"> Blog</h1>
       <br />
       <Card className="text-center ">
         <Card.Body className=" blog-card">

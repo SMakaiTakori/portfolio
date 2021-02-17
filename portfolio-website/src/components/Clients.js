@@ -13,8 +13,8 @@ import Advantage from "../images/Advantage.png";
 
 const Clients = () => {
   return (
-    <div>
-      <h1 className="section-header"> Clients </h1>
+    <div className="skills-div">
+      <h1 className="skills-header"> Clients </h1>
       <br />
       <div className="client-section">
         <Container className="client-container">
@@ -22,7 +22,6 @@ const Clients = () => {
             <Col className="client-logos">
               <Image className="client-list" src={NBAF} />
               <Image className="client-list" src={TwiceAChild} />
-
               <Image className="client-list" src={Advantage} />
               <Image className="client-list" src={Capstone} />
             </Col>

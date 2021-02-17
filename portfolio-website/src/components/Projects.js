@@ -9,7 +9,7 @@ import Pinterest from "../images/Pinterest.png";
 
 const Projects = () => {
   return (
-    <>
+    <div className="project-div">
       <h1 className="header">Personal Projects</h1>
       <p className="center">
         *Click on the image to see the project website or video demo
@@ -52,6 +52,7 @@ const Projects = () => {
               <Card.Link
                 className="project-link"
                 href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp"
+                target="_blank"
               >
                 Github Repo
               </Card.Link>
@@ -85,6 +86,7 @@ const Projects = () => {
               <Card.Link
                 className="project-link"
                 href="https://github.com/SMakaiTakori/Pseudo-Tamagotchi-App-RailsJS"
+                target="_blank"
               >
                 Github Repo
               </Card.Link>
@@ -118,6 +120,7 @@ const Projects = () => {
               <Card.Link
                 className="project-link"
                 href="https://github.com/SMakaiTakori/Pinterest_Clone_ReactApp"
+                target="_blank"
               >
                 Github Repo
               </Card.Link>
@@ -125,7 +128,7 @@ const Projects = () => {
           </Card>
         </CardColumns>
       </div>
-    </>
+    </div>
   );
 };
 

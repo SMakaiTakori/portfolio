@@ -56,7 +56,6 @@ h4 {
 }
 
 .hero-col {
-  /* background-color: rgba(128, 128, 128, 0.6); */
   padding: 20px;
 }
 
@@ -80,9 +79,13 @@ h4 {
 }
 
 /* Skills Section */
+
 .skills-div {
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
+  background-color: rgba(128, 128, 128, 0.2);
   padding: 15px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .skills-header {
@@ -100,8 +103,8 @@ h4 {
 }
 
 .skills-list {
-  width: 20%;
-  /* margin-left: 5px; */
+  width: 18%;
+  margin-left: 15px;
 }
 
 .col .skills-icons {
@@ -120,6 +123,10 @@ h4 {
 }
 
 /* Projects Section */
+
+.project-div {
+  margin-bottom: 50px;
+}
 
 .project-flex {
   display: flex;
@@ -145,10 +152,7 @@ h4 {
 /* Client Section */
 
 .client-section {
-  background-color: rgba(128, 128, 128, 0.3);
-  /* background-color: #f8f9fa;                 */
   display: flex;
-  /* justify-content: center; */
 }
 
 .client-list {
@@ -162,6 +166,7 @@ h4 {
 
 .col .client-logos {
   display: flex;
+  margin-left: 10px;
 }
 
 /* Blog Section */
