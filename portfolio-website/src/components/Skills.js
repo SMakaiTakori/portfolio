@@ -15,8 +15,8 @@ import PDF from "../documents/Resume.pdf";
 
 const Skills = () => {
   return (
-    <div>
-      <h1 className="section-header">Skills</h1>
+    <div className="skills-div">
+      <h1 className="skills-header">Skills</h1>
       <div className="skills-section">
         <Container className="skills-container">
           <Row>

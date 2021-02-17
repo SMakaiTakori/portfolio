@@ -10,7 +10,10 @@ import Pinterest from "../images/Pinterest.png";
 const Projects = () => {
   return (
     <>
-      <h1 className="section-header">Personal Projects</h1>
+      <h1 className="header">Personal Projects</h1>
+      <p className="center">
+        *Click on the image to see the project website or video demo
+      </p>
 
       <br />
       <div className="project-flex">
@@ -28,6 +31,7 @@ const Projects = () => {
             <Card.Link
               className="project-link"
               href="https://pinterestclone-client.herokuapp.com/"
+              target="_blank"
             >
               <Image
                 className="project-img"
@@ -35,16 +39,11 @@ const Projects = () => {
                 style={{ marginLeft: " 15px", width: "350px", height: "250px" }}
               />
             </Card.Link>
-            {/* <ReactPlayer
-              className="project-vid"
-              url="https://youtu.be/iwv-IJ1Vmcg"
-              width="350px"
-              height="250px"
-            /> */}
+
             <Card.Body>
               <Card.Text>
-                Check out my Pinterest Clone App built with Ruby on Rails and
-                React/Redux that allows users to search for images they would
+                Check out my Pinterest Clone Web App built with Ruby on Rails
+                and React/Redux. It allows users to search for images they would
                 like to view. I used the Pixabay API to fetch images for this
                 app.
               </Card.Text>
@@ -110,8 +109,9 @@ const Projects = () => {
             <Card.Body>
               <Card.Text>
                 Check out my Doggy Hotel App that allows users to book
-                reservations with the doggy hotel of their choice. I built this
-                app using Ruby on Rails.
+                reservations with the doggy hotel of their choice. I
+                incorporated Google provider for user authentication and built
+                this app using Ruby on Rails.
               </Card.Text>
             </Card.Body>
             <Card.Body>

@@ -10,6 +10,12 @@ h4 {
   text-align: center;
 }
 
+.header {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 4em;
+}
+
 .section-header {
   margin-top: 100px;
   margin-bottom: 50px;
@@ -60,11 +66,12 @@ h4 {
   font-size: 2em !important;
   margin-top: 20px;
 }
+
 /* About Section */
 
 .about-col {
-  background-color: #f8f9fa;
   padding: 20px;
+  margin-bottom: 50px;
 }
 .about-social {
   width: fit-content;
@@ -73,6 +80,16 @@ h4 {
 }
 
 /* Skills Section */
+.skills-div {
+  background-color: #f8f9fa;
+  padding: 15px;
+}
+
+.skills-header {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 4em;
+}
 
 .skills-section {
   /* background-color: rgba(128, 128, 128, 0.2); */
@@ -93,6 +110,7 @@ h4 {
 
 .skillsbtn-div {
   text-align: center;
+  padding-bottom: 10px;
 }
 .skills-btn {
   background-color: rgba(125, 20, 174, 0.8) !important;
