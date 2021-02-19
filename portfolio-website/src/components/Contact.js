@@ -15,11 +15,14 @@ const Contact = () => {
           </Col>
 
           <Col>
-            <SocialIcon url="http://twitter.com/MakaiTakori" />
+            <SocialIcon url="http://twitter.com/MakaiTakori" target="_blank" />
 
-            <SocialIcon url="https://www.linkedin.com/in/makai-takori/" />
+            <SocialIcon
+              url="https://www.linkedin.com/in/makai-takori/"
+              target="_blank"
+            />
 
-            <SocialIcon url="https://github.com/SMakaiTakori" />
+            <SocialIcon url="https://github.com/SMakaiTakori" target="_blank" />
 
             <SocialIcon url="mailto:makai.takori@gmail.com" />
           </Col>

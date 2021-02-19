@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div className="project-div">
       <h1 className="header">Personal Projects</h1>
-      <p className="center">
+      <p className="center" style={{ marginBottom: "40px" }}>
         *Click on the image to see the project website or video demo
       </p>
 

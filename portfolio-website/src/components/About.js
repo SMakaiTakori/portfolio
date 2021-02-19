@@ -15,7 +15,12 @@ const About = () => {
       <Container>
         <Row id="about" className="rows">
           <Col>
-            <Image src={Profile} roundedCircle style={{ marginTop: "60px" }} />
+            <Image
+              id="headshot"
+              src={Profile}
+              roundedCircle
+              style={{ marginTop: "60px" }}
+            />
           </Col>
           <Col>
             <br />
@@ -43,9 +48,18 @@ const About = () => {
               community. If you have any projects or opportunities you think I'd
               be interested in, let's connect!
               <div className="about-social">
-                <SocialIcon url="http://twitter.com/MakaiTakori" />
-                <SocialIcon url="https://www.linkedin.com/in/makai-takori/" />
-                <SocialIcon url="https://github.com/SMakaiTakori" />
+                <SocialIcon
+                  url="http://twitter.com/MakaiTakori"
+                  target="_blank"
+                />
+                <SocialIcon
+                  url="https://www.linkedin.com/in/makai-takori/"
+                  target="_blank"
+                />
+                <SocialIcon
+                  url="https://github.com/SMakaiTakori"
+                  target="_blank"
+                />
                 <SocialIcon url="mailto:makai.takori@gmail.com" />
               </div>
             </p>

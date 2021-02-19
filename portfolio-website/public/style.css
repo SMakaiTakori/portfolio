@@ -72,6 +72,17 @@ h4 {
   padding: 20px;
   margin-bottom: 50px;
 }
+
+#headshot {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+#headshot:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
 .about-social {
   width: fit-content;
   margin-left: -2em;

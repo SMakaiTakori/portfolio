@@ -33,7 +33,7 @@ const Skills = () => {
       </div>
       <div className="skillsbtn-div">
         <a href={PDF} target="_blank">
-          <Button className="skills-btn">Download My Resume</Button>
+          <Button className="skills-btn"> My Resume</Button>
         </a>
       </div>
     </div>
