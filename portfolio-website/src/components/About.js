@@ -25,7 +25,7 @@ const About = () => {
           <Col>
             <br />
             <hr />
-            <h1> Hello World! </h1>
+            <h1 style={{ fontSize: "4em" }}> Hello World! </h1>
             <br />
             <p>
               I am a passionate Full Stack Software Engineer and Web Developer
