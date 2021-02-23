@@ -8,7 +8,7 @@ import Image from "react-bootstrap/Image";
 
 import Rct from "../images/React-icon.png";
 import Rails from "../images/Ruby.png";
-import JS from "../images/javascript.jpg";
+import JS from "../images/javascript.png";
 import CSS from "../images/htmlcss.png";
 import Git from "../images/git.png";
 import PDF from "../documents/Resume.pdf";
@@ -32,7 +32,7 @@ const Skills = () => {
         </Container>
       </div>
       <div className="skillsbtn-div">
-        <a href={PDF} target="_blank">
+        <a href={PDF} target="_blank" rel="noreferrer">
           <Button className="skills-btn"> My Resume</Button>
         </a>
       </div>

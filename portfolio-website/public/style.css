@@ -162,6 +162,11 @@ h4 {
 
 /* Client Section */
 
+.clients-header {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 5em;
+}
 .client-section {
   display: flex;
 }

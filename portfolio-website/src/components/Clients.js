@@ -10,11 +10,12 @@ import TwiceAChild from "../images/TwiceAChildLogo.png";
 import NBAF from "../images/NBAF_BlackArts_Logo-300x95.jpg";
 import Capstone from "../images/capstonelogo.png";
 import Advantage from "../images/Advantage.png";
+7;
 
 const Clients = () => {
   return (
     <div className="skills-div">
-      <h1 className="skills-header"> Clients </h1>
+      <h1 className="clients-header"> Clients </h1>
       <br />
       <div className="client-section">
         <Container className="client-container">

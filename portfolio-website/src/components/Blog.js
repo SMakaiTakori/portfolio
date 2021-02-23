@@ -15,7 +15,11 @@ const Blog = () => {
             Interested in learning more about me and my tech journey? Check out
             my blog below!
           </Card.Text>
-          <a href="https://smakaitakori.github.io/" target="_blank">
+          <a
+            href="https://smakaitakori.github.io/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Button variant="primary">To Infinity and Beyond!</Button>
           </a>
         </Card.Body>
